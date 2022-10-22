@@ -1,0 +1,9 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "保险箱",
+  "navigationBarBackgroundColor": "#FEEF5C",
+  "usingComponents": {
+    "no-data": "/components/NoData/NoData",
+    "package-sku": "/pages/myBox/components/PackageSku"
+  }
+}

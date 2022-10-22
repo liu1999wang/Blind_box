@@ -1,0 +1,1 @@
+<view class="{{['header',theme]}}" style="{{('height:'+customBar+'px;')}}"><view class="{{['home-nav',theme]}}" style="{{(computedStyle)}}"><view class="nav-content"><view class="title"><image class="logo" mode="heightFix" src="{{logo}}"></image></view></view></view></view>

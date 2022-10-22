@@ -1,0 +1,12 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "订单列表",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "no-data": "/components/NoData/NoData",
+    "return-sale-popup-old": "/components/ReturnSalePopupOld/ReturnSalePopupOld",
+    "order-item": "/pages/orderList/components/OrderItem",
+    "i-action-sheet": "/components/ActionSheet/index",
+    "pay-card": "/pages/orderList/components/PayCard"
+  }
+}

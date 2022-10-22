@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#f4f4f4",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "user-statement": "/components/UserStatement/UserStatement",
+    "get-phone-popup": "/components/GetPhonePopup/GetPhonePopupForWechat"
+  }
+}

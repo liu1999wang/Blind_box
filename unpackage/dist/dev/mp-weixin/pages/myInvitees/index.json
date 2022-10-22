@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "邀请与分销记录",
+  "usingComponents": {
+    "no-data": "/components/NoData/NoData",
+    "user-item": "/pages/myInvitees/components/UserItem",
+    "agent-record-item": "/pages/myInvitees/components/AgentRecordItem"
+  }
+}

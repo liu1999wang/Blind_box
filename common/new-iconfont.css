@@ -1,0 +1,185 @@
+
+@font-face {
+  font-family: 'al-iconfont';  /* project id 1526925 */
+  
+   src: url('https://at.alicdn.com/t/font_1526925_s54ptvt1lid.ttf?t=1646647653554') format('truetype');
+}
+
+
+.new-iconfont {
+	font-family: "al-iconfont" !important;
+	/* font-size: 52rpx; */
+	/* margin-top: -30rpx; */
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-scan:before {
+	content: "\e604";
+}
+
+.icon-tips:before {
+	content: "\e736";
+}
+
+.icon-search:before {
+	content: "\e630";
+}
+
+.icon-lock:before {
+	content: "\e6c0";
+}
+
+.icon-box:before {
+	content: "\e649"
+}
+
+.icon-check:before {
+	content: "\e73c";
+}
+
+.icon-ticket:before {
+	content: "\e639";
+}
+
+.icon-arrow-right:before {
+	content: "\e6eb";
+}
+
+.icon-wechat:before {
+	content: "\e620";
+	
+	color: #24DB5A;
+}
+
+.icon-vip:before {
+	content: "\e652";
+}
+
+.icon-address:before{
+	content: "\e675";
+}
+
+.icon-edit:before {
+	content: "\e7fb";
+}
+.icon-qrcode:before {
+	content: "\e742";
+}
+
+
+.icon-trash:before {
+	content: "\e628";
+}
+
+.icon-comment:before {
+	content: "\e63b";
+}
+
+.icon-more:before {
+	content: "\e666";
+}
+
+.icon-activity:before {
+	content: "\e623";
+}
+
+
+.icon-cart:before {
+	content: "\e7e5";
+}
+
+
+.icon-all:before {
+	content: "\e62e";
+}
+
+.icon-contact:before {
+	content: "\e603";
+}
+
+.icon-clock:before {
+	content: "\f284";
+}
+
+.icon-message:before {
+	content: "\e653";
+}
+
+.icon-money:before {
+	content: "\e61e";
+}
+
+.icon-calendar:before {
+	content: "\e6c5";
+}
+
+.icon-order:before {
+	content: "\e62d";
+}
+
+.icon-info:before {
+	content: "\e736";
+}
+
+.icon-pen:before {
+	content: "\e61f";
+}
+
+.icon-eye:before {
+	content: "\e619";
+}
+
+.icon-brokerage:before {
+	content: "\e608";
+}
+
+.icon-heart:before {
+	content: "\e61c";
+}
+
+.icon-right:before {
+	content: "\e659";
+}
+
+.icon-wrong:before {
+	content: "\e61a";
+}
+
+.icon-crown:before {
+	content: "\e629";
+}
+
+.icon-crown-solid:before {
+	content: "\e63f";
+}
+
+.icon-diary:before {
+	content: "\e61d";
+}
+
+.icon-share:before {
+	content: "\e631";
+}
+
+.icon-close:before {
+	content: "\e61a";
+}
+
+
+.icon-arrow-up:before {
+	content: "\e60b";
+}
+
+.icon-arrow-left:before {
+	content: "\e607";
+}
+
+.icon-arrow-down:before {
+	content: "\e61b";
+}
+
+.icon-coupon:before {
+	content: "\e692";
+}

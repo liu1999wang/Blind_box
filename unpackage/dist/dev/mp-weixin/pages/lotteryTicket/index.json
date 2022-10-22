@@ -1,0 +1,10 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "我的抽奖码",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "no-data": "/components/NoData/NoData",
+    "ticket-item": "/pages/lotteryTicket/components/TicketItem",
+    "invitee-item": "/pages/lotteryTicket/components/InviteeItem"
+  }
+}

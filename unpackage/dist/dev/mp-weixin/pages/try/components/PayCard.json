@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "price-display": "/components/PriceDisplay/PriceDisplay",
+    "user-statement": "/components/UserStatement/UserStatement",
+    "usable-coupon-popup": "/components/UsableCouponPopup/UsableCouponPopup"
+  },
+  "component": true
+}

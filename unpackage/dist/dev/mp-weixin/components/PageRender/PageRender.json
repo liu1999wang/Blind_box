@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "float-btn": "/components/FloatBtn/FloatBtn",
+    "share-popup": "/components/SharePopup/SharePopup",
+    "default-theme": "/components/PageRender/themes/DefaultTheme",
+    "homepage-theme": "/components/PageRender/themes/HomepageTheme"
+  }
+}

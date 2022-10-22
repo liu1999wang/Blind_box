@@ -1,0 +1,8 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "规则说明",
+  "navigationBarBackgroundColor": "#ffffff",
+  "usingComponents": {
+    "page-render": "/components/PageRender/PageRender"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "参与记录",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "lucky-user-list": "/pages/lottery/components/luckyUserList",
+    "all-user-list": "/pages/lottery/components/allUserList"
+  }
+}

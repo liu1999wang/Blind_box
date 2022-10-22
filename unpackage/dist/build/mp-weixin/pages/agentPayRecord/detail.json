@@ -1,0 +1,12 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "订单代付",
+  "navigationBarBackgroundColor": "#ffcc00",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "sku-item": "/components/SkuItem/SkuItem",
+    "price-display": "/components/PriceDisplay/PriceDisplay",
+    "return-sale-popup": "/components/ReturnSalePopup/ReturnSalePopup",
+    "i-action-sheet": "/components/ActionSheet/index"
+  }
+}

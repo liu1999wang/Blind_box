@@ -1,0 +1,84 @@
+.global-shadow {
+	box-shadow: 0px 8rpx 30rpx 0px rgba(226, 222, 204, 0.6);
+	/* box-shadow:0px 0px 20rpx 4rpx rgba(51,51,51,0.03); */
+}
+
+.global-shadow-2 {
+	// box-shadow: 0px 8rpx 30rpx 0px rgba(226, 222, 204, 0.6);
+	box-shadow:0px 0px 20rpx 4rpx rgba(51,51,51,0.03);
+}
+
+image {
+	height: auto;
+}
+
+.p-tag {
+	z-index: 2;
+}
+
+.gray-image {
+	  -webkit-filter: grayscale(100%);
+	  -moz-filter: grayscale(100%);
+	  -ms-filter: grayscale(100%);
+	  -o-filter: grayscale(100%);
+	
+	  filter: grayscale(100%);
+	//上面代码是兼容火狐与谷歌的样式
+	//下面代码是兼容ie9以下浏览器的样式，包括ie9
+	  filter: gray;
+}
+
+.a-button {
+	&::after {
+		display: none;
+	}
+	
+	&::before  {
+		display: none;
+	}
+}
+
+.no-border-button {
+	&::after {
+		display: none;
+	}
+	
+	&::before  {
+		display: none;
+	}
+}
+
+.gray-text {
+	color: gray;
+}
+
+.white-bg-hover {
+	background: #efefef !important;
+}
+
+button {
+	font-weight: 500;
+}
+
+.more-btn {
+	// width: 92rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	font-size: 22rpx;
+	background: black;
+	color: white;
+	opacity: 0.9;
+	padding: 0rpx 20rpx;
+	border-radius: 50rpx;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.icon-arrow-right {
+		font-size: 28rpx;
+		margin-left: 0rpx;
+		display: inline;
+		width: 10rpx;
+	}
+}

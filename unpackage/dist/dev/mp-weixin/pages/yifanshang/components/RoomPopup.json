@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "ai-progress": "/components/ai-progress/ai-progress"
+  }
+}

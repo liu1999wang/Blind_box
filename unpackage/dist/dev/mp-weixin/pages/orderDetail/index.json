@@ -1,0 +1,11 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "订单详情",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "sku-item": "/components/SkuItem/SkuItem",
+    "price-display": "/components/PriceDisplay/PriceDisplay",
+    "return-sale-popup": "/components/ReturnSalePopup/ReturnSalePopup",
+    "i-action-sheet": "/components/ActionSheet/index"
+  }
+}

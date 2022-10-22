@@ -1,0 +1,12 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "盒柜仓库",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "no-data": "/components/NoData/NoData",
+    "return-sale-popup": "/components/ReturnSalePopup/ReturnSalePopup",
+    "resale-popup": "/components/ResalePopup/ResalePopup",
+    "package-sku": "/pages/myBox/components/PackageSku",
+    "pay-card": "/pages/myBox/components/PayCard"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "活动次数记录",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "text-nav-bar": "/components/TextNavBar/TextNavBar",
+    "no-data": "/components/NoData/NoData",
+    "ticket-item": "/pages/activityTicket/components/TicketItem",
+    "user-item": "/pages/activityTicket/components/UserItem",
+    "rule": "/pages/activityTicket/components/Rule"
+  }
+}

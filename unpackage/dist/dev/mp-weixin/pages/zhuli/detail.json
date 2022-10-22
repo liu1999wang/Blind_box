@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "助力活动",
+  "usingComponents": {
+    "count-down": "/components/CountDown/CountDown",
+    "page-render": "/components/PageRender/PageRender",
+    "user-group-check": "/components/UserGroupCheck/UserGroupCheck",
+    "share-popup": "/components/SharePopup/SharePopup",
+    "my-record-list": "/pages/zhuli/components/MyRecordList"
+  }
+}

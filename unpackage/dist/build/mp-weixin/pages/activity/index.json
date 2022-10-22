@@ -1,0 +1,9 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "活动专区",
+  "navigationBarBackgroundColor": "#FFCC0B",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "page-render": "/components/PageRender/PageRender"
+  }
+}

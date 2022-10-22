@@ -1,0 +1,1 @@
+.container{padding:30rpx 30rpx}.list-scope{display:flex;flex-wrap:wrap;justify-content:space-between}.list-scope.scroll{flex-wrap:nowrap}.list-scope .grid1{flex-grow:1}

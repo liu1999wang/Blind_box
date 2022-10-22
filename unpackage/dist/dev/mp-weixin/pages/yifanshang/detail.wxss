@@ -1,0 +1,603 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.scope-container.data-v-bcc4ecd6 {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: #000000;
+}
+.top-c.data-v-bcc4ecd6 {
+  width: 750rpx;
+  height: 100;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 20rpx 52rpx 0px rgba(143, 143, 143, 0.1);
+}
+.top-c .thumb.data-v-bcc4ecd6 {
+  width: 100%;
+  height: 100%;
+}
+.top-c .swiper-scope.data-v-bcc4ecd6 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.top-c .swiper-scope swiper-item.data-v-bcc4ecd6 {
+  width: 100%;
+  height: 100%;
+}
+.top-c .float-price-c.data-v-bcc4ecd6 {
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  color: white;
+  font-weight: 700;
+  font-size: 26rpx;
+  padding: 10rpx 30rpx;
+  border-radius: 4rpx;
+}
+.top-c .float-price-c .item.data-v-bcc4ecd6 {
+  display: flex;
+  justify-content: space-between;
+}
+.top-c .float-price-c .free-order.data-v-bcc4ecd6 {
+  color: red;
+}
+.top-c .bottom-c.data-v-bcc4ecd6 {
+  background: url(data:image/png;base64,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);
+  background-repeat: no-repeat;
+  background-size: 110% auto;
+  background-position: -10rpx bottom;
+  width: 100%;
+  height: 300rpx;
+  position: absolute;
+  bottom: 0rpx;
+  left: 0rpx;
+  pointer-events: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  color: white;
+  font-weight: 500;
+  font-size: 26rpx;
+  padding: 20rpx 20rpx;
+  box-sizing: border-box;
+}
+.top-c .bottom-c .yellow-font.data-v-bcc4ecd6 {
+  color: #FFEA06;
+}
+.body.data-v-bcc4ecd6 {
+  width: 100%;
+  position: relative;
+  padding-bottom: 430rpx;
+}
+.body .title-c.data-v-bcc4ecd6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.body .title-c .all-stock.data-v-bcc4ecd6 {
+  width: 280rpx;
+}
+.body .title-c .stock-c.data-v-bcc4ecd6 {
+  margin-right: 26rpx;
+  font-weight: 500;
+  font-size: 32rpx;
+}
+.body .sku-list.data-v-bcc4ecd6 {
+  overflow: hidden;
+  width: 726rpx;
+  margin-left: 12rpx;
+}
+.body .sku-list .item.data-v-bcc4ecd6 {
+  float: left;
+  margin-left: 12rpx;
+  margin-top: 22rpx;
+  width: 166rpx;
+  height: 380rpx;
+  box-sizing: border-box;
+  border: 1rpx solid #f1f1f1;
+  border-radius: 12rpx;
+}
+.body .sku-list .item .thumb.data-v-bcc4ecd6 {
+  position: relative;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 12rpx;
+  position: relative;
+}
+.body .sku-list .item .thumb image.data-v-bcc4ecd6 {
+  width: 166rpx;
+  height: 166rpx;
+  height: 250rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+  display: block;
+}
+.body .sku-list .item .thumb .total.data-v-bcc4ecd6 {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 6rpx;
+  padding: 2rpx 10rpx;
+  color: white;
+  position: absolute;
+  top: 10rpx;
+  left: 0rpx;
+  z-index: 100;
+  font-size: 20rpx;
+  font-weight: bold;
+}
+.body .sku-list .item .thumb .shang-title.data-v-bcc4ecd6 {
+  background: #FFD223;
+  border-radius: 6rpx;
+  padding: 2rpx 10rpx;
+  color: white;
+  position: absolute;
+  bottom: 10rpx;
+  right: 10rpx;
+  z-index: 100;
+  font-size: 20rpx;
+  font-weight: bold;
+}
+.body .sku-list .item .thumb .shang-title.gift.data-v-bcc4ecd6 {
+  background: #F15858;
+}
+.body .sku-list .item .display-price.data-v-bcc4ecd6 {
+  font-size: 22rpx;
+  font-family: PingFang;
+  font-weight: 500;
+  display: flex;
+}
+.body .sku-list .item .title.data-v-bcc4ecd6 {
+  font-size: 24rpx;
+  font-family: PingFang;
+  font-weight: bold;
+  color: #000000;
+  width: 166rpx;
+  text-align: center;
+  margin-top: 10rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.footer-c.data-v-bcc4ecd6 {
+  position: fixed;
+  bottom: 0rpx;
+  width: 100%;
+  background: white;
+  padding-bottom: 60rpx;
+}
+.small-btn-c.data-v-bcc4ecd6 {
+  text-align: center;
+  font-size: 24rpx;
+  font-family: PingFang;
+  font-weight: 500;
+  color: #A67C1D;
+  line-height: 40rpx;
+  padding: 30rpx 120rpx 0rpx 120rpx;
+  width: 700rpx;
+  box-sizing: border-box;
+  border-top: 1px solid #F3F3F5;
+  margin: 0rpx auto 30rpx auto;
+  display: flex;
+  justify-content: space-around;
+}
+.small-btn-c .btn.data-v-bcc4ecd6 {
+  height: 30rpx;
+}
+.middle.data-v-bcc4ecd6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  position: relative;
+  padding: 0rpx 30rpx;
+}
+.middle .left-btn.data-v-bcc4ecd6 {
+  width: 100rpx;
+  flex: 0 100rpx;
+  height: 100rpx;
+}
+.middle .long-btn.data-v-bcc4ecd6 {
+  width: 580rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  position: relative;
+  font-size: 28rpx;
+  text-align: center;
+}
+.middle .long-btn .number.data-v-bcc4ecd6 {
+  font-weight: 500;
+  font-size: 40rpx;
+  margin: 0rpx 10rpx;
+}
+.middle .right-btn.data-v-bcc4ecd6 {
+  width: 100rpx;
+  flex: 0 100rpx;
+  height: 100rpx;
+  margin-left: 10rpx;
+}
+.btn-c.data-v-bcc4ecd6 {
+  width: 700rpx;
+  margin: 20rpx auto 0rpx auto;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-c .btn.data-v-bcc4ecd6 {
+  width: 172rpx;
+  flex: 0 0 172rpx;
+}
+.new-top-box.data-v-bcc4ecd6 {
+  position: fixed;
+  top: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  z-index: 3;
+  height: 25vh;
+  width: 750rpx;
+}
+.new-top-box .new-top-left.data-v-bcc4ecd6 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 150rpx;
+  height: 100rpx;
+  z-index: 3;
+}
+.new-top-box .new-top-left .btn.data-v-bcc4ecd6 {
+  width: 100%;
+  height: 100%;
+}
+.new-top-box .new-top-right.data-v-bcc4ecd6 {
+  position: fixed;
+  top: 15rpx;
+  right: 0;
+  width: 100rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 3;
+}
+.new-top-box .new-top-right image.data-v-bcc4ecd6 {
+  width: 100%;
+  height: 80rpx;
+  margin: 10rpx 0;
+}
+.new-top-box .new-top-right newcart.data-v-bcc4ecd6 {
+  width: 220rpx;
+}
+.new-top-centre.data-v-bcc4ecd6 {
+  position: fixed;
+  top: 0rpx;
+  right: 0;
+  width: 750rpx;
+  height: 110rpx;
+  z-index: 2;
+}
+.new-top-centre image.data-v-bcc4ecd6 {
+  width: 100%;
+  height: 100%;
+}
+.try_box.data-v-bcc4ecd6 {
+  position: fixed;
+  top: 150rpx;
+  right: 0rpx;
+  width: 155rpx;
+  height: 77rpx;
+  background: url("https://www.hebide.cc/newimages/MF.png");
+  z-index: 99;
+  background-size: 100%;
+}
+.new-content.data-v-bcc4ecd6 {
+  width: 750rpx;
+  height: 80vh;
+  z-index: 1;
+}
+.new-content .thumb.data-v-bcc4ecd6 {
+  width: 100%;
+  height: 100%;
+}
+.new-list-box.data-v-bcc4ecd6 {
+  position: fixed;
+  bottom: 0;
+  width: 750rpx;
+  height: 70vh;
+  background-color: #000;
+  z-index: 5;
+  opacity: 1;
+  transition: all .5s;
+}
+.new-list-box .top-tab.data-v-bcc4ecd6 {
+  margin: 0 auto;
+  margin-top: -60rpx;
+  width: 100%;
+  height: 60rpx;
+  position: relative;
+}
+.new-list-box .top-tab .newcart.data-v-bcc4ecd6 {
+  position: absolute;
+  left: 10rpx;
+  top: 10rpx;
+  width: 180rpx;
+  height: 100rpx;
+  z-index: 15;
+}
+.new-list-box .top-tab .refresh-btn.data-v-bcc4ecd6 {
+  position: absolute;
+  right: 10rpx;
+  top: 0rpx;
+  width: 180rpx;
+  height: 100rpx;
+  z-index: 15;
+}
+.new-list-box .top-tab .top-opo-box.data-v-bcc4ecd6 {
+  position: absolute;
+  top: -95rpx;
+  left: calc(50% - 85rpx);
+  width: 170rpx;
+  height: 100rpx;
+  padding-top: 25rpx;
+  background: url("https://www.hebide.cc/newimages/newyi/top-opo.png") no-repeat;
+  background-size: 100%;
+  color: #000000;
+  font-size: 24rpx;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  z-index: 16;
+  pointer-events: none;
+}
+.new-list-box .top-tab image.data-v-bcc4ecd6 {
+  width: 100%;
+  height: 100%;
+  transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  /* Internet Explorer */
+  -moz-transform: rotate(0deg);
+  /* Firefox */
+  -webkit-transform: rotate(0deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(0deg);
+  /* Opera */
+  transition: all .5s;
+}
+.new-list-box .top-tab .up_next.data-v-bcc4ecd6 {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  /* Internet Explorer */
+  -moz-transform: rotate(180deg);
+  /* Firefox */
+  -webkit-transform: rotate(180deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(180deg);
+  /* Opera */
+}
+.new-list-box .top-tab .top-tab-button.data-v-bcc4ecd6 {
+  position: absolute;
+  top: 20rpx;
+  left: calc(50% - 90rpx);
+  width: 40rpx;
+  padding: 0 70rpx;
+  height: 30rpx;
+}
+.up_next_box.data-v-bcc4ecd6 {
+  height: 470rpx;
+}
+.tab-box.data-v-bcc4ecd6 {
+  position: relative;
+  background-color: #000;
+  z-index: 10;
+  margin: 0 auto;
+}
+.tab-box .tab-flex.data-v-bcc4ecd6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20rpx;
+}
+.tab-box .tab-flex view.data-v-bcc4ecd6 {
+  background-color: #2e2e2e;
+  color: #858585;
+  padding: 6rpx 15rpx;
+  font-size: 32rpx;
+}
+.tab-box .tab-flex .tab_selected.data-v-bcc4ecd6 {
+  background-color: #f7b108;
+  color: #FFFFFF;
+}
+.main-box.data-v-bcc4ecd6 {
+  position: relative;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.5%;
+  z-index: 10;
+}
+.main-box .up-box.data-v-bcc4ecd6 {
+  width: 120rpx;
+}
+.main-box .up-box image.data-v-bcc4ecd6 {
+  width: 100%;
+  height: 100%;
+}
+.main-box .next-btn.data-v-bcc4ecd6 {
+  width: 120rpx;
+}
+.main-box .next-btn image.data-v-bcc4ecd6 {
+  width: 100%;
+  height: 100%;
+}
+.main-box .text-box.data-v-bcc4ecd6 {
+  color: #FFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: center;
+}
+.main-box .text-box text.data-v-bcc4ecd6 {
+  display: flex;
+  height: 50rpx;
+  flex-direction: row;
+  align-items: center;
+  justify-self: center;
+}
+.main-box .text-box .number.data-v-bcc4ecd6 {
+  color: #ff2c09;
+  font-size: 34rpx;
+  font-weight: 900;
+  padding-top: 3rpx;
+}
+.product-list.data-v-bcc4ecd6 {
+  position: relative;
+  z-index: 5;
+  overflow: auto;
+  height: 70vh;
+  margin-top: -70rpx;
+}
+.product-list .sku-list.data-v-bcc4ecd6 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-bottom: 500rpx;
+}
+.product-list .sku-list .item.data-v-bcc4ecd6 {
+  width: 20%;
+  margin: 0 calc(2.5% - 2rpx);
+  border: 1rpx solid #FFFFFF;
+  min-height: 150rpx;
+}
+.product-list .sku-list .item .thumb.data-v-bcc4ecd6 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.product-list .sku-list .item .thumb image.data-v-bcc4ecd6 {
+  width: 100%;
+  height: 100%;
+  max-height: 150rpx;
+}
+.product-list .sku-list .item .thumb .total.data-v-bcc4ecd6 {
+  position: absolute;
+  top: 124rpx;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFFFFF;
+  padding: 0 5rpx;
+  text-align: center;
+  min-width: 80rpx;
+  font-size: 20rpx;
+}
+.product-list .sku-list .item .thumb .sell-out-c.data-v-bcc4ecd6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-list .sku-list .item .thumb .sell-out-c .sell-out.data-v-bcc4ecd6 {
+  width: 90rpx;
+  height: 90rpx;
+}
+.product-list .sku-list .item .title.data-v-bcc4ecd6 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #FFFFFF;
+  font-size: 24rpx;
+}
+.product-list .sku-list .item .display-price.data-v-bcc4ecd6 {
+  color: #c5c5c5;
+  font-size: 18rpx;
+}
+.remaining_quantity_box.data-v-bcc4ecd6 {
+  color: #000000;
+  overflow: hidden;
+  padding-top: 10rpx;
+  padding-bottom: 500rpx;
+}
+.new-footer-box.data-v-bcc4ecd6 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 750rpx;
+  height: 330rpx;
+  z-index: 9;
+  opacity: 1;
+}
+.new-footer-box .new-footer-buttom.data-v-bcc4ecd6 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.new-footer-box .new-footer-buttom image.data-v-bcc4ecd6 {
+  width: 100%;
+  height: 100%;
+}
+.new-footer2-box.data-v-bcc4ecd6 {
+  width: 100%;
+  height: 330rpx;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 10;
+}
+.new-footer2-box .new-footer-buttom.data-v-bcc4ecd6 {
+  width: 300rpx;
+}
+.new-footer2-box .new-footer-buttom button.data-v-bcc4ecd6 {
+  width: 100%;
+  height: 150rpx;
+  opacity: 0;
+}
+.new-footer3-box.data-v-bcc4ecd6 {
+  width: 100%;
+  height: 100rpx;
+  position: fixed;
+  bottom: 180rpx;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 12;
+}
+.new-footer3-box image.data-v-bcc4ecd6 {
+  margin: 0 2.5%;
+  width: 25%;
+  height: 100rpx;
+}
+

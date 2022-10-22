@@ -1,0 +1,1 @@
+<view class="container data-v-09d14ef6"><page-render vue-id="08f9d0db-1" refreshCounter="{{refreshCounter}}" getNextPageCounter="{{getNextPageCounter}}" page="{{page}}" theme="default" class="data-v-09d14ef6" bind:__l="__l"></page-render></view>

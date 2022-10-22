@@ -1,0 +1,10 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "我参与的活动",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "no-data": "/components/NoData/NoData",
+    "activity-item": "/pages/myActivity/components/ActivityItem",
+    "i-action-sheet": "/components/ActionSheet/index"
+  }
+}

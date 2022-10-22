@@ -1,0 +1,6 @@
+module.exports = {
+	appid: '',   // 你的公众号id
+	js: {
+		debug: false    
+	}
+}

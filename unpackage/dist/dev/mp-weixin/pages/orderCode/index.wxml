@@ -1,0 +1,1 @@
+<view class="container"><view class="tips">请等待管理员扫码核销</view><view class="code">{{info.code}}</view><image class="qrcode" src="{{'data:image/png;base64,'+info.qrcode}}" mode="widthFix"></image></view>

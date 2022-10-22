@@ -1,0 +1,14 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "订单结算",
+  "navigationBarBackgroundColor": "#ffcc00",
+  "usingComponents": {
+    "select-address": "/components/SelectAddress/SelectAddress",
+    "sku-item": "/components/SkuItem/SkuItem",
+    "price-display": "/components/PriceDisplay/PriceDisplay",
+    "usable-coupon-popup": "/components/UsableCouponPopup/UsableCouponPopup",
+    "no-data": "/components/NoData/NoData",
+    "split-line": "/components/SplitLine/index",
+    "i-button": "/components/Button/index"
+  }
+}

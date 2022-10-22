@@ -1,0 +1,10 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "物品详情",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "sku-item": "/components/SkuItem/SkuItem",
+    "price-display": "/components/PriceDisplay/PriceDisplay",
+    "i-action-sheet": "/components/ActionSheet/index"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "row1": "/components/ActivityItem/Row1",
+    "grid1": "/components/ActivityItem/Grid1",
+    "grid2": "/components/ActivityItem/Grid2",
+    "grid3": "/components/ActivityItem/Grid3",
+    "row1-seckill": "/components/ActivityItem/Row1Seckill"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "转售区",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "no-data": "/components/NoData/NoData",
+    "no-more": "/components/NoMore/NoMore",
+    "resale-item": "/pages/resale/components/ResaleItem"
+  }
+}

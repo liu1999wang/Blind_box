@@ -1,0 +1,18 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "商品详情",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "price-display": "/components/PriceDisplay/PriceDisplay",
+    "count-down": "/components/CountDown/CountDown",
+    "page-render": "/components/PageRender/PageRender",
+    "share-popup": "/components/SharePopup/SharePopup",
+    "group-price-check": "/components/GroupPriceCheck/GroupPriceCheck",
+    "seckill-price-check": "/components/SeckillPriceCheck/SeckillPriceCheck",
+    "order-reward": "/components/OrderReward/OrderReward",
+    "swiper-images": "/pages/productDetail/components/SwiperImages",
+    "product-detail": "/pages/productDetail/components/ProductDetail",
+    "i-input-number": "/components/InputNumber/index",
+    "split-line": "/components/SplitLine/index"
+  }
+}

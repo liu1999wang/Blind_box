@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "home-navbar": "/components/HomeNavbar/HomeNavbar",
+    "page-render": "/components/PageRender/PageRender",
+    "popup": "/components/Popup/Popup",
+    "danmus": "/components/Danmus/Danmus",
+    "coupon-popup": "/components/CouponPopup/CouponPopup"
+  }
+}

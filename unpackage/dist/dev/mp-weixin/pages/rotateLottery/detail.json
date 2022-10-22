@@ -1,0 +1,14 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "大转盘抽奖",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "no-data": "/components/NoData/NoData",
+    "buy-activity-ticket": "/components/BuyActivityTicket/BuyActivityTicket",
+    "lottery-result-popup": "/components/LotteryResultPopup/LotteryResultPopup",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "box-sku-popup": "/components/BoxSkuPopup/BoxSkuPopup",
+    "lottery-com": "/pages/rotateLottery/components/Lottery",
+    "invite-record-popup": "/pages/rotateLottery/components/InviteRecordPopup"
+  }
+}

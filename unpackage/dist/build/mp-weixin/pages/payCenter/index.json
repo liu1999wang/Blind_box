@@ -1,0 +1,8 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "收银台",
+  "navigationBarBackgroundColor": "#ffcc00",
+  "usingComponents": {
+    "i-button": "/components/Button/index"
+  }
+}

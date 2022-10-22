@@ -1,0 +1,1 @@
+<view class="container"><block wx:if="{{isInit}}"><page-render vue-id="c0a25968-1" page="{{page}}" theme="default" bind:__l="__l"></page-render></block></view>

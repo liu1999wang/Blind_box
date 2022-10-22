@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "sku-item": "/components/SkuItem/SkuItem",
+    "price-display": "/components/PriceDisplay/PriceDisplay"
+  }
+}

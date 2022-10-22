@@ -1,0 +1,112 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/activity/index",
+    "pages/activity/list",
+    "pages/rotateLottery/detail",
+    "pages/lottery/userList",
+    "pages/yifanshang/detail",
+    "pages/try/detail",
+    "pages/fudai/detail",
+    "pages/productDetail/index",
+    "pages/dayTask/index",
+    "pages/myCard/index",
+    "pages/orderPreview/index",
+    "pages/orderCode/index",
+    "pages/orderCode/scan",
+    "pages/payCenter/index",
+    "pages/agentPayRecord/detail",
+    "pages/contact/index",
+    "pages/couponDetail/index",
+    "pages/code/index",
+    "pages/code/record",
+    "pages/myBox/index",
+    "pages/myBox/locked",
+    "pages/myBox/detail",
+    "pages/orderList/index",
+    "pages/orderDetail/index",
+    "pages/myActivity/index",
+    "pages/cart/index",
+    "pages/category/index",
+    "pages/ip/index",
+    "pages/shop/index",
+    "pages/lottery/detail",
+    "pages/lotteryTicket/index",
+    "pages/page/index",
+    "pages/center/index",
+    "pages/center/detail",
+    "pages/buyVip/index",
+    "pages/boxDetail/index",
+    "pages/resale/index",
+    "pages/resale/detail",
+    "pages/search/index",
+    "pages/openBox/index",
+    "pages/zhuli/detail",
+    "pages/myAddress/index",
+    "pages/setAddress/index",
+    "pages/myCoupons/index",
+    "pages/myInvitees/index",
+    "pages/myScore/index",
+    "pages/activityTicket/record",
+    "pages/myScore/buy",
+    "pages/myChip/index",
+    "pages/myProfile/index",
+    "pages/myRedpack/index",
+    "pages/myRedpack/buy",
+    "pages/myRedpack/withdraw",
+    "pages/myRedpack/withdraw_records",
+    "pages/myRedpack/withdrawList",
+    "pages/coverChip/index",
+    "pages/webview/index",
+    "pages/rule/index",
+    "pages/rule/userStatement",
+    "pages/login/index",
+    "pages/appUpgrade/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "autoscan": true,
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": " ",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#000",
+    "iconWidth": "100px",
+    "height": "200px",
+    "backgroundColor": "rgb(85, 85, 0)",
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/tabbar1.png",
+        "selectedIconPath": "static/tabbar/tabbar1-1.png"
+      },
+      {
+        "pagePath": "pages/shop/index",
+        "iconPath": "static/tabbar/tabbar3.png",
+        "selectedIconPath": "static/tabbar/tabbar3-1.png"
+      },
+      {
+        "pagePath": "pages/myBox/index",
+        "iconPath": "static/tabbar/hegui.png",
+        "selectedIconPath": "static/tabbar/hegui-1.png"
+      },
+      {
+        "pagePath": "pages/center/index",
+        "iconPath": "static/tabbar/tabbar5.png",
+        "selectedIconPath": "static/tabbar/tabbar5-1.png"
+      }
+    ]
+  },
+  "permission": {},
+  "plugins": {},
+  "unipush": {
+    "enable": false
+  },
+  "usingComponents": {
+    "tab-bar": "/components/TabBar/tabBar"
+  }
+}

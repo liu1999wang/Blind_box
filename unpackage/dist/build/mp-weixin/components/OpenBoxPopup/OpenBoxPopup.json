@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "return-sale-popup": "/components/ReturnSalePopup/ReturnSalePopup"
+  }
+}

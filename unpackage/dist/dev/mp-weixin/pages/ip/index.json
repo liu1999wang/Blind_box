@@ -1,0 +1,9 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "IP列表",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "banner": "/components/Banner/Banner",
+    "no-data": "/components/NoData/NoData"
+  }
+}

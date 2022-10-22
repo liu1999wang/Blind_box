@@ -1,0 +1,1 @@
+<view class="rule data-v-3e88695a"><radio style="transform:scale(0.7);position:relative;top:-2rpx;" value="cb" checked="{{isCheck}}" color="#ef563d" data-event-opts="{{[['tap',[['uncheck',['$event']]]]]}}" bindtap="__e" class="data-v-3e88695a"></radio>我已阅读并同意<navigator class="link data-v-3e88695a" url="/pages/rule/userStatement">《用户使用协议》</navigator></view>

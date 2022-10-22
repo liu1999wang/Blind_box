@@ -1,0 +1,8 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "联系我们",
+  "navigationBarBackgroundColor": "#ffcc00",
+  "usingComponents": {
+    "page-render": "/components/PageRender/PageRender"
+  }
+}

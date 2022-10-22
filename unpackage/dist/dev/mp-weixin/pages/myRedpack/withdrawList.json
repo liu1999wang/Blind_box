@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#ffcc00",
+  "navigationBarTitleText": "提现记录",
+  "usingComponents": {
+    "no-data": "/components/NoData/NoData"
+  }
+}

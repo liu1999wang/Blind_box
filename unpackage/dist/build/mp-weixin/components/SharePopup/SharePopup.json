@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "poster-theme1": "/components/SharePopup/components/posterTheme1"
+  }
+}

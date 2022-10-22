@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.mask.data-v-4e9a6cc4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
+.mask-content.data-v-4e9a6cc4 {
+  width: 600rpx;
+  margin-bottom: 300rpx;
+  background-color: #EDEDED;
+  background-color: white;
+  border-radius: 20rpx;
+  padding: 60rpx 60rpx 50rpx 60rpx;
+  box-sizing: border-box;
+  position: relative;
+}
+.mask-content .close-btn.data-v-4e9a6cc4 {
+  position: absolute;
+  right: 26rpx;
+  top: 26rpx;
+  color: #999;
+}
+.mask-content .title.data-v-4e9a6cc4 {
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.mask-content .desc.data-v-4e9a6cc4 {
+  font-size: 26rpx;
+  color: #999;
+  margin: 30rpx 0rpx 50rpx 0rpx;
+  text-align: justify;
+}
+.mask-content .rule-c.data-v-4e9a6cc4 {
+  margin-top: 50rpx;
+}
+.mask-content .rule-c .item.data-v-4e9a6cc4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14rpx;
+}
+.mask-content .rule-c .item .key.data-v-4e9a6cc4 {
+  flex-grow: 1;
+  font-size: 28rpx;
+}
+.mask-content .rule-c .item .status.data-v-4e9a6cc4 {
+  font-weight: 500;
+  font-size: 26rpx;
+}
+.mask-content .rule-c .item .status.un-passed.data-v-4e9a6cc4 {
+  color: red;
+}
+.mask-content .rule-c .item .status.passed.data-v-4e9a6cc4 {
+  color: #2BA246;
+}
+.mask-content .rule-c .item .icon-arrow-right.data-v-4e9a6cc4 {
+  font-size: 40rpx;
+  color: #999;
+  margin-right: -10rpx;
+}
+.mask-content .price-c.data-v-4e9a6cc4 {
+  display: flex;
+  justify-content: flex-end;
+  color: red;
+  text-align: right;
+  margin-top: 50rpx;
+}
+.mask-content .btn-c.data-v-4e9a6cc4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mask-content .btn-c .btn.data-v-4e9a6cc4 {
+  padding: 0;
+  margin: 50rpx 0rpx 0rpx 0rpx;
+  width: 46%;
+  border-radius: 20rpx;
+  height: 76rpx;
+  line-height: 76rpx;
+  text-align: center;
+  font-size: 28rpx;
+  font-weight: bold;
+  background-color: #ffcc00;
+  color: white;
+}
+.mask-content .btn-c .btn.data-v-4e9a6cc4:after {
+  border: none;
+}
+

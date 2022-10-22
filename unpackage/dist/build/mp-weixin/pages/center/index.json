@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "banner": "/components/Banner/Banner",
+    "float-btn": "/components/FloatBtn/FloatBtn"
+  }
+}

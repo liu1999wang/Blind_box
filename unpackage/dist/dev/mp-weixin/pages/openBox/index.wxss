@@ -1,0 +1,597 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background-size: 100% 100%;
+}
+.tips {
+  font-size: 24rpx;
+  margin-top: 30rpx;
+  text-align: center;
+}
+.tips-card-c {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0rpx;
+  left: 0rpx;
+  background: rgba(30, 30, 30, 0.5);
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tips-card-c .tips-content {
+  background: url("https://bus-cdn.hquesoft.com/box/card-bg.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 666rpx;
+  height: 564rpx;
+  padding: 30rpx 30rpx;
+  box-sizing: border-box;
+}
+.tips-card-c .tips-content .title-c {
+  display: flex;
+  align-items: center;
+}
+.tips-card-c .tips-content .title-c .title {
+  font-size: 46rpx;
+  font-weight: bold;
+  color: #FFFFFF;
+  flex-grow: 1;
+}
+.tips-card-c .tips-content .title-c .total {
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: white;
+  padding: 4rpx 26rpx 4rpx 26rpx;
+  border-radius: 30rpx;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.tips-card-c .tips-content .title-c .total .icon-arrow-right {
+  font-size: 40rpx;
+  width: 24rpx;
+  margin-left: -8rpx;
+  padding: 0rpx !important;
+  display: inline;
+}
+.tips-card-c .tips-content .item-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 50rpx;
+}
+.tips-card-c .tips-content .item-text {
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  font-weight: 500;
+  color: #999999;
+}
+.tips-card-c .tips-content .get-btn {
+  width: 100%;
+  height: 96rpx;
+  background: #FFCC09;
+  border-radius: 10rpx;
+  margin: 0rpx auto;
+  line-height: 96rpx;
+  text-align: center;
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333333;
+  margin-top: 30rpx;
+}
+.tips-card-c .close-btn {
+  border: 4rpx solid white;
+  border-radius: 50%;
+  font-size: 40rpx;
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 10rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: white;
+}
+.float-btn {
+  position: fixed;
+  right: 0rpx;
+  top: 260rpx;
+  width: 130rpx;
+  height: 66rpx;
+  background: #FFEFB3;
+  border-radius: 33px 0px 0px 33px;
+  padding: 0rpx 14rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 500;
+  font-size: 24rpx;
+}
+.float-btn image {
+  width: 30rpx;
+  height: 36rpx;
+}
+.float-btn.my {
+  top: 350rpx;
+}
+.float-btn.my image {
+  width: 30rpx;
+  height: 40rpx;
+}
+.float-btn.share {
+  top: 700rpx;
+}
+.float-btn.share .icon-wechat {
+  font-size: 40rpx;
+}
+.float-btn.rand-list {
+  top: 800rpx;
+  text-align: center;
+  padding-left: 26rpx !important;
+}
+.float-btn.rand-list .icon-wechat {
+  font-size: 50rpx;
+}
+.float-btn.rand-list::after {
+  display: none;
+}
+.float-headimg-c {
+  position: fixed;
+  right: 0rpx;
+  top: 460rpx;
+  width: 140rpx;
+  height: 100rpx;
+  text-align: center;
+}
+.float-headimg-c .headimg {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.float-headimg-c .score {
+  font-size: 24rpx;
+  font-weight: 500;
+}
+.container {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 100rpx;
+  padding-bottom: 120rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.container .body {
+  width: 100%;
+}
+.yaoyiyao {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.yaoyiyao image {
+  width: 76rpx;
+  height: 76rpx;
+  -webkit-animation: yaoyiyao 1s;
+          animation: yaoyiyao 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+.yaoyiyao text {
+  color: #333333;
+  font-size: 24rpx;
+  font-weight: bold;
+}
+.yaoyiyao.small image {
+  width: 50rpx;
+  height: 50rpx;
+}
+.yaoyiyao.small text {
+  font-size: 24rpx;
+}
+@-webkit-keyframes yaoyiyao {
+0% {
+    -webkit-transform: scale(1) rotate(-4deg);
+            transform: scale(1) rotate(-4deg);
+}
+25% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+50% {
+    -webkit-transform: scale(1.1) rotate(4deg);
+            transform: scale(1.1) rotate(4deg);
+}
+75% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+100% {
+    -webkit-transform: scale(1) rotate(-4deg);
+            transform: scale(1) rotate(-4deg);
+}
+}
+@keyframes yaoyiyao {
+0% {
+    -webkit-transform: scale(1) rotate(-4deg);
+            transform: scale(1) rotate(-4deg);
+}
+25% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+50% {
+    -webkit-transform: scale(1.1) rotate(4deg);
+            transform: scale(1.1) rotate(4deg);
+}
+75% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+100% {
+    -webkit-transform: scale(1) rotate(-4deg);
+            transform: scale(1) rotate(-4deg);
+}
+}
+.box {
+  width: 360rpx;
+  height: 540rpx;
+  margin: 0 auto;
+  margin-top: 4rpx;
+  position: relative;
+}
+.box.small {
+  width: 300rpx;
+  height: 450rpx;
+}
+.box-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.box-img image {
+  width: 100%;
+  height: 100%;
+}
+@-webkit-keyframes box-animation {
+0% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+}
+50% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+}
+100% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+}
+}
+@keyframes box-animation {
+0% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+}
+50% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+}
+100% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+}
+}
+.box-img.move {
+  -webkit-animation: moving 1s;
+          animation: moving 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.box-img.move2 {
+  -webkit-animation: moving2 0.6s;
+          animation: moving2 0.6s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@-webkit-keyframes moving {
+0% {
+    left: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+35% {
+    left: 80rpx;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+}
+100% {
+    left: -800rpx;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+}
+}
+@keyframes moving {
+0% {
+    left: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+35% {
+    left: 80rpx;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+}
+100% {
+    left: -800rpx;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+}
+}
+@-webkit-keyframes moving2 {
+0% {
+    left: 0;
+    top: -800rpx;
+}
+100% {
+    left: 0;
+    top: 0;
+}
+}
+@keyframes moving2 {
+0% {
+    left: 0;
+    top: -800rpx;
+}
+100% {
+    left: 0;
+    top: 0;
+}
+}
+.box-number {
+  text-align: center;
+  margin-top: 60rpx;
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #000;
+}
+.box-number .inner-tips {
+  font-weight: 400;
+  margin-top: 20rpx;
+}
+.card-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 30rpx;
+}
+.card-list .item {
+  width: 150rpx;
+  height: 48rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFE78A;
+  border-radius: 24rpx;
+  font-size: 26rpx;
+}
+.card-list .item:last-child {
+  margin-left: 30rpx;
+}
+.card-list .item image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.thumb-list {
+  display: flex;
+  white-space: nowrap;
+  margin-top: 40rpx;
+}
+.thumb-list .item {
+  margin-right: 20rpx;
+  display: inline-block;
+  position: relative;
+}
+.thumb-list .item:first-child {
+  margin-left: 20rpx;
+}
+.thumb-list .item .thumb {
+  background: #F8EFC5;
+  border: 4rpx solid #FFB640;
+  border-radius: 6rpx;
+  width: 150rpx;
+  height: 200rpx;
+}
+.thumb-list .item .title {
+  text-align: center;
+  color: black;
+  font-size: 24rpx;
+  width: 150rpx;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.thumb-list .item .price-c {
+  font-size: 22rpx;
+  color: black;
+  width: 150rpx;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.thumb-list .item .tips {
+  position: absolute;
+  top: -30rpx;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 4rpx 0rpx;
+  color: white;
+  font-size: 24rpx;
+  font-weight: 500;
+}
+.thumb-list .item .tips-bottom {
+  position: absolute;
+  top: 166rpx;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 4rpx 0rpx;
+  color: white;
+  color: red;
+  font-size: 22rpx;
+}
+.thumb-list .item .tips-bottom.showed {
+  background: #2BA246;
+  color: white;
+}
+.thumb-list.small .item .thumb {
+  width: 120rpx;
+  height: 160rpx;
+}
+.thumb-list.small .item .title {
+  width: 120rpx;
+}
+.thumb-list.small .item .tips-bottom {
+  top: 130rpx;
+}
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.footer .btns {
+  padding-bottom: 40rpx;
+  margin: 0 50rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .btns .button {
+  width: 304rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
+  background-color: #FFBF42;
+  font-size: 30rpx;
+  font-weight: bold;
+  text-align: center;
+  line-height: 80rpx;
+  box-shadow: 0 0 16rpx rgba(209, 209, 209, 0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .btns .button image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.footer .btns .button:nth-child(1) {
+  background: #FFBF42;
+  border: 3rpx solid #FFFFFF;
+}
+.footer .btns .button:nth-child(2) {
+  color: black;
+  background-color: white;
+  box-shadow: 0px 18rpx 30px 0px rgba(255, 187, 42, 0.2);
+}
+.footer .btns .button.disable {
+  background: #BBB9B2;
+  color: #f6f6f6;
+}
+.footer.small .btns {
+  padding-bottom: 50rpx;
+}
+.box-tips {
+  position: fixed;
+  top: 20%;
+  left: 125rpx;
+  width: 500rpx;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10rpx;
+  padding: 50rpx 24rpx;
+  color: #FFFFFF;
+  font-size: 26rpx;
+  box-sizing: border-box;
+  z-index: 11100;
+  text-align: center;
+}
+.box-tips .close-btn {
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+  color: #f1f1f1;
+  font-size: 30rpx;
+}
+.box-tips text {
+  font-size: 30rpx;
+  padding: 0 10rpx;
+  font-weight: bold;
+}
+@-webkit-keyframes show {
+from {
+    bottom: -480rpx;
+}
+to {
+    bottom: 0;
+}
+}
+@keyframes show {
+from {
+    bottom: -480rpx;
+}
+to {
+    bottom: 0;
+}
+}
+.container.dark .yaoyiyao text {
+  color: #aaa;
+}
+.container.dark .box-number {
+  color: #ddd;
+}
+.container.dark .thumb-list .title {
+  color: #ddd;
+}
+.container.dark .float-headimg-c {
+  color: #ddd;
+}
+

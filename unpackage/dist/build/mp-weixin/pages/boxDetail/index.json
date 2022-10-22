@@ -1,0 +1,17 @@
+{
+  "disableScroll": true,
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#b5d3ed",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "text-nav-bar": "/components/TextNavBar/TextNavBar",
+    "count-down": "/components/CountDown/CountDown",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "box-sku-popup": "/components/BoxSkuPopup/BoxSkuPopup",
+    "share-popup": "/components/SharePopup/SharePopup",
+    "hidden-sku-rank": "/components/HiddenSkuRank/HiddenSkuRank",
+    "danmus": "/components/Danmus/Danmus",
+    "box-thmem-default": "/pages/boxDetail/boxTheme/Default",
+    "box-theme3-d": "/pages/boxDetail/boxTheme/Box3D"
+  }
+}

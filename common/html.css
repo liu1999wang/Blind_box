@@ -1,0 +1,9 @@
+rich-text {
+	text-align: justify;
+	line-height: 50rpx;
+	/* text-indent: 2rem; */
+}
+
+rich-text > p {
+	margin-bottom: 10rpx;
+}

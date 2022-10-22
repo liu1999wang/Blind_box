@@ -1,0 +1,167 @@
+<template>
+	<view class="item-container grid2" :class="theme" hover-class="hover" @tap="$emit('click')">
+		<!-- <image class="p-tag" src="@/static/new.png" v-if="tag == 'new'"></image> -->
+		<view class="thumb-c">
+			<image class="p-tag" :class="'location-' + info.image_tag.location" :src="info.image_tag.image" v-if="info.image_tag"></image>
+			<image mode="aspectFill" :src="info.thumb + '?x-oss-process=image/resize,w_300'" class="thumb"></image>
+			<view class="presell-c" v-if="info.is_presell">预售</view>
+		</view>
+		<view class="body">
+			<view class="title">{{info.title}}</view>
+			<view class="bottom">
+				<view class="tag"><image v-if="tagString!=null" mode="widthFix" src="https://www.hebide.cc/newimages/newyi/tag.png"></image><text v-if="tagString!=null">{{tagString}}</text></view>
+				<view class="price">
+					<PriceDisplay :info="info"></PriceDisplay>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		props: {
+			info: {
+				type: Object,
+				default () {
+					return {}
+				}
+			},
+			tag: {
+				type: String
+			},
+			theme: {
+				type: String,
+				default () {
+					return 'default-theme'
+				}
+ 			}
+		},
+		data() {
+			return {}
+		},
+		computed: {
+			tagString () {
+				return  this.info && this.info.tags && this.info.tags[0] || null
+			}
+		},
+		methods: {
+		}
+	}
+</script>
+
+<style lang="scss" scoped>
+	.item-container {
+		// width: 328rpx;
+		// height: 460rpx;
+		border-radius: 30rpx 30rpx 20rpx 20rpx;
+		overflow: hidden;
+		margin-bottom: 28rpx;
+		box-shadow: 0px 14px 30px 0px rgba(226, 222, 204, 0.4);
+		position: relative;
+
+		.thumb-c {
+			position: relative;
+			.thumb {
+				width: 100%;
+				height: 330rpx;
+				display: block;
+			}
+			
+			.presell-c {
+				position: absolute;
+				width: 100%;
+				text-align: center;
+				background: rgba(230, 49, 17, 0.5);
+				color: white;
+				left: 0rpx;
+				bottom: 0rpx;
+				font-size: 24rpx;
+				padding: 6rpx 0rpx;
+			}
+			
+			.p-tag {
+				position: absolute;
+				width: 100rpx;
+				height: 100rpx;
+				top: 0rpx;
+				
+				// 右上角
+				&.location-1 {
+					right: 0rpx;
+				}
+				
+				// 右上角
+				&.location-2 {
+					left: 0rpx;
+				}
+			}
+		}
+		
+
+		.body {
+			background: white;
+			padding: 12rpx 21rpx 10rpx 21rpx;
+			box-sizing: border-box;
+			.title {
+				font-size: 30rpx;
+				font-weight: 500;
+				color: #000000;
+
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp: 1;
+				-webkit-box-orient: vertical;
+			}
+
+			.tag {
+				margin-top: 10rpx;
+				height: 30rpx;
+				// background: #F7F7F7;
+				// border-radius: 50rpx;
+				font-size: 22rpx;
+				font-weight: 500;
+				color: #cbad00;
+				line-height: 30rpx;
+				max-width: 100%;
+				display: flex;
+
+				
+				
+				overflow: hidden;
+				text-overflow: ellipsis;
+				// display: -webkit-box;
+				-webkit-line-clamp: 1;
+				-webkit-box-orient: vertical;
+				image{
+					width: 30rpx;
+					margin-right:5rpx ;
+				}
+			}
+			
+			.price {
+				text-align: right;
+				font-size: 30rpx;
+				font-weight: 800;
+				color: #DE1124;
+			}
+		}
+	}
+	
+	.theme-1 {
+		height: 400rpx;
+		.body {
+			border-radius: 20rpx;
+			overflow: hidden;
+			position: relative;
+			top: -30rpx;
+			
+			.bottom {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+		}
+	}
+</style>

@@ -1,0 +1,12 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "抽奖活动详情",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "count-down": "/components/CountDown/CountDown",
+    "no-data": "/components/NoData/NoData",
+    "pay-card": "/pages/lottery/components/PayCard",
+    "my-ticket": "/pages/lottery/components/MyTicket",
+    "invite-popup": "/pages/lottery/components/InvitePopup"
+  }
+}

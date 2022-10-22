@@ -1,0 +1,1 @@
+<view class="container data-v-160b8d32" style="padding-bottom:160rpx;"><page-render vue-id="a932cbd8-1" refreshCounter="{{refreshCounter}}" getNextPageCounter="{{getNextPageCounter}}" page="{{page}}" theme="default" class="data-v-160b8d32" bind:__l="__l"></page-render><tab-bar vue-id="a932cbd8-2" isselected="{{1}}" class="data-v-160b8d32" bind:__l="__l"></tab-bar></view>

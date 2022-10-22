@@ -1,0 +1,12 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "购物车",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "uni-swipe-action-item": "/uni_modules/uni-swipe-action/components/uni-swipe-action-item/uni-swipe-action-item",
+    "price-display": "/components/PriceDisplay/PriceDisplay",
+    "no-data": "/components/NoData/NoData",
+    "i-button": "/components/Button/index",
+    "i-input-number": "/components/InputNumber/index"
+  }
+}

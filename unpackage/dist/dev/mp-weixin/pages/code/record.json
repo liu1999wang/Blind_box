@@ -1,0 +1,8 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "兑换记录",
+  "navigationBarBackgroundColor": "#ffcc00",
+  "usingComponents": {
+    "no-data": "/components/NoData/NoData"
+  }
+}

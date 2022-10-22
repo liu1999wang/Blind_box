@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "usable-coupon-popup": "/components/UsableCouponPopup/UsableCouponPopup"
+  }
+}

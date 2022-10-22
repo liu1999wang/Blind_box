@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/myActivity/components/ActivityItem"],{"2a4a":function(t,i,n){"use strict";n.r(i);var e=n("f9d6"),u=n("ff15");for(var c in u)"default"!==c&&function(t){n.d(i,t,(function(){return u[t]}))}(c);n("83b0");var a,r=n("f0c5"),o=Object(r["a"])(u["default"],e["b"],e["c"],!1,null,"6f23ddd4",null,!1,e["a"],a);i["default"]=o.exports},7205:function(t,i,n){},"83b0":function(t,i,n){"use strict";var e=n("7205"),u=n.n(e);u.a},be52:function(t,i,n){"use strict";(function(t){Object.defineProperty(i,"__esModule",{value:!0}),i.default=void 0;var n={props:{info:{type:Object,default:function(){return{}}},tag:{type:String},theme:{type:String}},data:function(){return{}},computed:{activity:function(){return this.info.activity||{}}},methods:{toDetail:function(){"seckill"==this.activity.type?t.navigateTo({url:"/pages/productDetail/index?uuid="+this.activity.product_uuid+"&activityId="+this.activity.id}):t.navigateTo({url:"/pages/".concat(this.activity.type,"Activity/detail?uuid=").concat(this.activity.uuid)})}}};i.default=n}).call(this,n("543d")["default"])},f9d6:function(t,i,n){"use strict";n.d(i,"b",(function(){return u})),n.d(i,"c",(function(){return c})),n.d(i,"a",(function(){return e}));var e={PriceDisplay:function(){return n.e("components/PriceDisplay/PriceDisplay").then(n.bind(null,"5f805"))}},u=function(){var t=this,i=t.$createElement;t._self._c},c=[]},ff15:function(t,i,n){"use strict";n.r(i);var e=n("be52"),u=n.n(e);for(var c in e)"default"!==c&&function(t){n.d(i,t,(function(){return e[t]}))}(c);i["default"]=u.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/myActivity/components/ActivityItem-create-component',
+    {
+        'pages/myActivity/components/ActivityItem-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("2a4a"))
+        })
+    },
+    [['pages/myActivity/components/ActivityItem-create-component']]
+]);

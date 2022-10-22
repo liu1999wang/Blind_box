@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "text-nav-bar": "/components/TextNavBar/TextNavBar",
+    "calendar": "/pages/dayTask/components/Calendar"
+  }
+}

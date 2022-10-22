@@ -1,0 +1,6 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "page-render": "/components/PageRender/PageRender"
+  }
+}

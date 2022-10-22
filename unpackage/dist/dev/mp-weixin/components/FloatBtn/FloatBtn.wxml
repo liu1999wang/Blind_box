@@ -1,0 +1,1 @@
+<image class="{{['float-btn-scorpe-i','data-v-32849a04',(isAnimated&&isAnimatedLocal)?'float-icon-animate':'']}}" style="{{(iStyle)}}" hover-class="hover" mode="widthFix" src="{{src}}" data-event-opts="{{[['tap',[['goShareActivity',['$event']]]]]}}" bindtap="__e"></image>

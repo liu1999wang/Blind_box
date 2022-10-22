@@ -1,0 +1,8 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "碎片资产",
+  "navigationBarBackgroundColor": "#ffcc00",
+  "usingComponents": {
+    "no-data": "/components/NoData/NoData"
+  }
+}

@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.tips {
+  color: #666;
+  font-size: 28rpx;
+  text-align: center;
+}
+.scan {
+  margin: 300rpx auto 50rpx auto;
+  display: block;
+  width: 300rpx;
+  height: 300rpx;
+}
+.code {
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: 700;
+  margin-top: 100rpx;
+  margin-bottom: 20rpx;
+}
+.qrcode {
+  width: 400rpx;
+  height: 400rpx;
+  margin: 0rpx auto;
+  display: block;
+}
+page {
+  background: #fafafa;
+}
+button {
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  background-color: transparent;
+}
+button:after {
+  border: none;
+}
+.order-c .list-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.order-c .list-item .status-text {
+  font-weight: 500;
+}
+.order-c .list-item .body {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+.order-c .list-item-title {
+  flex: 1;
+}
+.order-c .address-c {
+  display: flex;
+  background: white;
+}
+.order-c .address-c .al-icon-coordinates {
+  margin-top: 6rpx;
+}
+.order-c .address-c .body {
+  margin-left: 30rpx;
+}
+.order-c .address-c .body .name {
+  font-size: 30rpx;
+  font-weight: 500;
+}
+.order-c .address-c .body .detail {
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  color: #777;
+}
+.order-c .products-c {
+  background: white;
+  margin-top: 20rpx;
+}
+.order-c .price-wrap {
+  background: white;
+  padding-top: 20rpx;
+  margin-top: 20rpx;
+}
+.order-c .list-item {
+  height: 80rpx;
+  font-size: 28rpx;
+}
+.order-c .list-item .arrow-right {
+  font-size: 26rpx;
+  font-weight: bold;
+}
+.order-c .total-price {
+  margin-top: 20rpx;
+  position: relative;
+  line-height: 90rpx;
+  text-align: right;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.order-c .total-price .key {
+  font-size: 28rpx;
+}
+.order-c .total-price .price-c {
+  color: red;
+  display: inline;
+}
+.order-c .meta-c {
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  background: white;
+  margin-top: 20rpx;
+}
+.order-c .meta-c .list-item .arrow-right {
+  font-weight: 400;
+}
+.order-c .meta-c .status-text {
+  font-weight: 500;
+}
+.footer {
+  display: none;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  box-shadow: 0 -6rpx 8rpx rgba(206, 206, 206, 0.2);
+}
+.footer .content {
+  padding: 20rpx 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer-actions {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 130rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 30rpx 100rpx 30rpx;
+  background-color: #fff;
+}
+.footer-actions .action-item {
+  height: 100rpx;
+  width: 120rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.footer-actions .action-item .icon {
+  font-size: 42rpx;
+  line-height: 46rpx;
+}
+.footer-actions .action-item text {
+  font-size: 22rpx;
+  line-height: 30rpx;
+}
+.footer-actions .btn {
+  width: 238rpx;
+  height: 78rpx;
+  border-radius: 40rpx;
+  color: #F27233;
+  font-size: 26rpx;
+  text-align: center;
+  line-height: 78rpx;
+  margin-left: 30rpx;
+  font-weight: 500;
+}
+.footer-actions .btn.bg-orange {
+  background: #f27233;
+  color: #FFFFFF;
+}
+.footer-actions .btn.btn-full {
+  width: 600rpx;
+}
+

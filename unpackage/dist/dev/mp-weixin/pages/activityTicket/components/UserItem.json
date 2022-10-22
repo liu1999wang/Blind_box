@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "single-reward-display": "/components/SingleRewardDisplay/SingleRewardDisplay"
+  }
+}

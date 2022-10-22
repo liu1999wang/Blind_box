@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/SkuItem/SkuItem"],{"153f":function(t,e,n){"use strict";n.r(e);var u=n("7cf9"),i=n.n(u);for(var r in u)"default"!==r&&function(t){n.d(e,t,(function(){return u[t]}))}(r);e["default"]=i.a},"1dd5":function(t,e,n){"use strict";n.r(e);var u=n("7eea"),i=n("153f");for(var r in i)"default"!==r&&function(t){n.d(e,t,(function(){return i[t]}))}(r);n("ef79");var o,a=n("f0c5"),c=Object(a["a"])(i["default"],u["b"],u["c"],!1,null,"2072d7da",null,!1,u["a"],o);e["default"]=c.exports},"1ee2":function(t,e,n){},"7cf9":function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var u=i(n("2ff0"));function i(t){return t&&t.__esModule?t:{default:t}}var r={mixins:[u.default],props:{info:{type:Object},disableClick:{type:Boolean,default:function(){return!1}}},filters:{},methods:{toProductDetail:function(e){if(this.disableClick)return!1;var n=this.info;"product"===n.product_type?t.navigateTo({url:"/pages/productDetail/index?uuid="+n.product_uuid}):"box"===n.product_type&&t.navigateTo({url:"/pages/boxDetail/index?uuid="+n.product_uuid})}}};e.default=r}).call(this,n("543d")["default"])},"7eea":function(t,e,n){"use strict";n.d(e,"b",(function(){return i})),n.d(e,"c",(function(){return r})),n.d(e,"a",(function(){return u}));var u={PriceDisplay:function(){return n.e("components/PriceDisplay/PriceDisplay").then(n.bind(null,"5f805"))}},i=function(){var t=this,e=t.$createElement,n=(t._self._c,t.info.attrs&&t.info.attrs.length?t._f("productAttrsToString")(t.info.attrs):null);t.$mp.data=Object.assign({},{$root:{f0:n}})},r=[]},ef79:function(t,e,n){"use strict";var u=n("1ee2"),i=n.n(u);i.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/SkuItem/SkuItem-create-component',
+    {
+        'components/SkuItem/SkuItem-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("1dd5"))
+        })
+    },
+    [['components/SkuItem/SkuItem-create-component']]
+]);

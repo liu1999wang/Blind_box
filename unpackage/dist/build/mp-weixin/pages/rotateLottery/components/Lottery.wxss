@@ -1,0 +1,6 @@
+.almost-lottery.data-v-5061316c{display:flex;flex-direction:column;justify-content:center;align-items:center}.almost-lottery__canvas.data-v-5061316c{position:absolute;left:-9999px;opacity:0;display:flex;justify-content:center;align-items:center}.lottery-action.data-v-5061316c,
+.str-margin-outside.data-v-5061316c,
+.img-margin-str.data-v-5061316c,
+.img-size.data-v-5061316c{position:absolute;left:0;top:0;z-index:-1}.almost-lottery__measureText.data-v-5061316c{position:absolute;left:0;top:0;white-space:nowrap;font-size:12px;opacity:0}.almost-lottery__wrap.data-v-5061316c{position:relative}.almost-lottery__bg.data-v-5061316c,
+.almost-lottery__canvas-img.data-v-5061316c,
+.almost-lottery__action-bg.data-v-5061316c{position:absolute;left:0;top:0}.almost-lottery__canvas-img.data-v-5061316c{transition:-webkit-transform cubic-bezier(.34,.12,.05,.95);transition:transform cubic-bezier(.34,.12,.05,.95);transition:transform cubic-bezier(.34,.12,.05,.95),-webkit-transform cubic-bezier(.34,.12,.05,.95)}

@@ -1,0 +1,13 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "集卡",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "text-nav-bar": "/components/TextNavBar/TextNavBar",
+    "page-render": "/components/PageRender/PageRender",
+    "share-popup": "/components/SharePopup/SharePopup",
+    "confirm-swap-popup": "/pages/jika/components/ConfirmSwapPopup"
+  }
+}

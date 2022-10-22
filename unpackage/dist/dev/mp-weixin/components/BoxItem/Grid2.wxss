@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.item-container.data-v-63e314f0 {
+  border-radius: 30rpx 30rpx 20rpx 20rpx;
+  overflow: hidden;
+  margin-bottom: 28rpx;
+  box-shadow: 0px 14px 30px 0px rgba(226, 222, 204, 0.4);
+  position: relative;
+}
+.item-container .thumb-c.data-v-63e314f0 {
+  position: relative;
+}
+.item-container .thumb-c .thumb.data-v-63e314f0 {
+  width: 100%;
+  height: 330rpx;
+  display: block;
+}
+.item-container .thumb-c .presell-c.data-v-63e314f0 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background: rgba(230, 49, 17, 0.5);
+  color: white;
+  left: 0rpx;
+  bottom: 0rpx;
+  font-size: 24rpx;
+  padding: 6rpx 0rpx;
+}
+.item-container .thumb-c .p-tag.data-v-63e314f0 {
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  top: 0rpx;
+}
+.item-container .thumb-c .p-tag.location-1.data-v-63e314f0 {
+  right: 0rpx;
+}
+.item-container .thumb-c .p-tag.location-2.data-v-63e314f0 {
+  left: 0rpx;
+}
+.item-container .body.data-v-63e314f0 {
+  background: white;
+  padding: 12rpx 21rpx 10rpx 21rpx;
+  box-sizing: border-box;
+}
+.item-container .body .title.data-v-63e314f0 {
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.item-container .body .tag.data-v-63e314f0 {
+  height: 36rpx;
+  background: #F7F7F7;
+  border-radius: 50rpx;
+  font-size: 22rpx;
+  font-weight: 500;
+  color: #999999;
+  line-height: 36rpx;
+  padding: 0rpx 12rpx;
+  max-width: 180rpx;
+  display: inline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.item-container .body .price.data-v-63e314f0 {
+  text-align: right;
+  font-size: 30rpx;
+  font-weight: 800;
+  color: #DE1124;
+}
+.theme-1.data-v-63e314f0 {
+  height: 400rpx;
+}
+.theme-1 .body.data-v-63e314f0 {
+  border-radius: 20rpx;
+  overflow: hidden;
+  position: relative;
+  top: -30rpx;
+}
+.theme-1 .body .bottom.data-v-63e314f0 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+

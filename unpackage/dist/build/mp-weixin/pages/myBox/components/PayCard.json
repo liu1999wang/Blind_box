@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "select-address": "/components/SelectAddress/SelectAddress",
+    "price-display": "/components/PriceDisplay/PriceDisplay",
+    "usable-coupon-popup": "/components/UsableCouponPopup/UsableCouponPopup"
+  }
+}

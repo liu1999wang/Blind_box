@@ -1,0 +1,18 @@
+{
+  "component": true,
+  "usingComponents": {
+    "banner": "/components/Banner/Banner",
+    "card-title": "/components/cardTitle/cardTitle",
+    "box-list": "/components/BoxList/BoxList",
+    "product-list": "/components/ProductList/ProductList",
+    "activity-list": "/components/ActivityList/ActivityList",
+    "coupon-list": "/components/CouponList/CouponList",
+    "i-p-list": "/components/IPList/IPList",
+    "category-list": "/components/CategoryList/CategoryList",
+    "signin-card": "/components/SigninCard/SigninCard",
+    "h-t-m-l": "/components/HTML/HTML",
+    "image-list": "/components/PageRender/modules/ImageList",
+    "pure-image-list": "/components/PageRender/modules/PureImageList",
+    "video-item": "/components/PageRender/modules/Video"
+  }
+}

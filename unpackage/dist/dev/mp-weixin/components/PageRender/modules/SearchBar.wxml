@@ -1,0 +1,1 @@
+<view class="search-bar data-v-8a945318" hover-class="hover" data-event-opts="{{[['tap',[['toSearch',['$event']]]]]}}" bindtap="__e"><text class="new-iconfont icon-search search-icon data-v-8a945318"></text><text class="data-v-8a945318">{{module.title||'搜索更多新奇商品'}}</text></view>

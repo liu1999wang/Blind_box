@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/AreaSelect/AreaSelect"],{"04fb":function(e,t,n){"use strict";var r;n.d(t,"b",(function(){return a})),n.d(t,"c",(function(){return i})),n.d(t,"a",(function(){return r}));var a=function(){var e=this,t=e.$createElement;e._self._c},i=[]},"0ece":function(e,t,n){},"7b86":function(e,t,n){"use strict";n.r(t);var r=n("04fb"),a=n("832a");for(var i in a)"default"!==i&&function(e){n.d(t,e,(function(){return a[e]}))}(i);n("ffac");var u,c=n("f0c5"),l=Object(c["a"])(a["default"],r["b"],r["c"],!1,null,"e91bd068",null,!1,r["a"],u);t["default"]=l.exports},"832a":function(e,t,n){"use strict";n.r(t);var r=n("e93e"),a=n.n(r);for(var i in r)"default"!==i&&function(e){n.d(t,e,(function(){return r[e]}))}(i);t["default"]=a.a},e93e:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var r=function(){Promise.all([n.e("common/vendor"),n.e("components/AreaSelect/simple-address")]).then(function(){return resolve(n("af10"))}.bind(null,n)).catch(n.oe)},a={data:function(){return{cityPickerValueDefault:[0,0,1],labelArr:[]}},props:{value:{type:Array}},components:{simpleAddress:r},computed:{pickerText:function(){return this.labelArr&&this.labelArr.join("-")}},mounted:function(){this.value&&(this.labelArr=this.value)},watch:{labelArr:function(){this.cityPickerValueDefault=this.$refs.simpleAddress.queryIndex(this.labelArr,"label").index}},methods:{openAddres:function(){this.$refs.simpleAddress.open()},onConfirm:function(e){this.labelArr=e.labelArr,this.$emit("change",e)}}};t.default=a},ffac:function(e,t,n){"use strict";var r=n("0ece"),a=n.n(r);a.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/AreaSelect/AreaSelect-create-component',
+    {
+        'components/AreaSelect/AreaSelect-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("7b86"))
+        })
+    },
+    [['components/AreaSelect/AreaSelect-create-component']]
+]);

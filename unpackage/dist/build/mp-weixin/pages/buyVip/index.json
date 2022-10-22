@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "开通会员",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "text-nav-bar": "/components/TextNavBar/TextNavBar",
+    "page-render": "/components/PageRender/PageRender",
+    "pay-card": "/pages/buyVip/components/PayCard"
+  }
+}

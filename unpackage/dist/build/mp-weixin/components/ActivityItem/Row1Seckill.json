@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "count-down": "/components/CountDown/CountDown",
+    "price-display": "/components/PriceDisplay/PriceDisplay"
+  }
+}

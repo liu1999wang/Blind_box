@@ -1,0 +1,16 @@
+{
+  "disableScroll": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "text-nav-bar": "/components/TextNavBar/TextNavBar",
+    "price-display": "/components/PriceDisplay/PriceDisplay",
+    "open-box-popup": "/components/OpenBoxPopup/OpenBoxPopup",
+    "share-popup": "/components/SharePopup/SharePopup",
+    "danmus": "/components/Danmus/Danmus",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "box-sku-popup": "/components/BoxSkuPopup/BoxSkuPopup",
+    "free-ticket-float-btn": "/components/FreeTicketFloatBtn/FreeTicketFloatBtn",
+    "hidden-sku-rank": "/components/HiddenSkuRank/HiddenSkuRank",
+    "pay-card": "/pages/openBox/components/PayCard"
+  }
+}

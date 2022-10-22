@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/TextNavBar/TextNavBar"],{2773:function(t,e,n){"use strict";var o=n("f81a"),a=n.n(o);a.a},5079:function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n={props:{title:String,darkMode:Boolean,bgColor:String,titleColor:String},data:function(){return{customBar:64,contentStyle:64,titleStyle:64}},computed:{deviceInfo:function(){return this.$store.getters.deviceInfo}},created:function(){this.customBar=this.deviceInfo.customBar,this.contentStyle="height:".concat(this.deviceInfo.customBar,"px;padding-top:").concat(this.deviceInfo.statusBar,"px;background:").concat(this.bgColor,";"),this.titleStyle="color:".concat(this.titleColor)},methods:{goBack:function(){console.log("goback",getCurrentPages().length),1==getCurrentPages().length?t.switchTab({url:"/pages/index/index"}):t.navigateBack()}}};e.default=n}).call(this,n("543d")["default"])},"6b14":function(t,e,n){"use strict";n.r(e);var o=n("5079"),a=n.n(o);for(var c in o)"default"!==c&&function(t){n.d(e,t,(function(){return o[t]}))}(c);e["default"]=a.a},"9a9e":function(t,e,n){"use strict";var o;n.d(e,"b",(function(){return a})),n.d(e,"c",(function(){return c})),n.d(e,"a",(function(){return o}));var a=function(){var t=this,e=t.$createElement;t._self._c},c=[]},a2e3:function(t,e,n){"use strict";n.r(e);var o=n("9a9e"),a=n("6b14");for(var c in a)"default"!==c&&function(t){n.d(e,t,(function(){return a[t]}))}(c);n("2773");var r,i=n("f0c5"),u=Object(i["a"])(a["default"],o["b"],o["c"],!1,null,null,null,!1,o["a"],r);e["default"]=u.exports},f81a:function(t,e,n){}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/TextNavBar/TextNavBar-create-component',
+    {
+        'components/TextNavBar/TextNavBar-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("a2e3"))
+        })
+    },
+    [['components/TextNavBar/TextNavBar-create-component']]
+]);

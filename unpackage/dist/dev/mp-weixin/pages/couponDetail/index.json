@@ -1,0 +1,10 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "领取优惠券",
+  "navigationBarBackgroundColor": "#ffcc00",
+  "usingComponents": {
+    "user-group-check": "/components/UserGroupCheck/UserGroupCheck",
+    "i-button": "/components/Button/index",
+    "coupon-item": "/pages/couponDetail/components/CouponItem"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "选择商品置换",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "product-list": "/pages/exchange/components/list",
+    "no-more": "/components/NoMore/NoMore",
+    "no-data": "/components/NoData/NoData",
+    "sort-bar": "/pages/exchange/components/sortBar"
+  }
+}

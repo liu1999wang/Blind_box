@@ -1,0 +1,18 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#000000",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "disableScroll": true,
+  "usingComponents": {
+    "price-display": "/components/PriceDisplay/PriceDisplay",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "box-sku-popup": "/components/BoxSkuPopup/BoxSkuPopup",
+    "open-box-popup-theme2": "/components/OpenBoxPopupTheme2/OpenBoxPopupTheme2",
+    "free-ticket-float-btn": "/components/FreeTicketFloatBtn/FreeTicketFloatBtn",
+    "danmus": "/components/Danmus/Danmus",
+    "pay-card": "/pages/fudai/components/PayCard",
+    "record-list": "/pages/fudai/components/RecordList"
+  }
+}

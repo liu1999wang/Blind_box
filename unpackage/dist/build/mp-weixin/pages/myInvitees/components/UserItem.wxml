@@ -1,0 +1,1 @@
+<view class="item global-shadow-2 data-v-136c3d78"><image class="left headimg data-v-136c3d78" src="{{info.headimg}}"></image><view class="body data-v-136c3d78"><view class="name data-v-136c3d78">{{info.name}}</view><view class="time data-v-136c3d78">{{info.created_at}}</view></view><view class="right data-v-136c3d78"></view></view>

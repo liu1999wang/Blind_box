@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "row1": "/components/BoxItem/Row1",
+    "grid1": "/components/BoxItem/Grid1",
+    "grid2": "/components/BoxItem/Grid2",
+    "grid3": "/components/BoxItem/Grid3"
+  }
+}

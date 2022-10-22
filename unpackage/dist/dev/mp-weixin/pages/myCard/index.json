@@ -1,0 +1,8 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "我的道具卡券",
+  "navigationBarBackgroundColor": "#FFCC0B",
+  "usingComponents": {
+    "no-data": "/components/NoData/NoData"
+  }
+}

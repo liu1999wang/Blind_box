@@ -1,0 +1,1 @@
+<view class="split-line" style="{{('height:'+height+'px')}}"></view>

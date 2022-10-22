@@ -1,0 +1,11 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "内容搜索",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "product-list": "/pages/search/components/list",
+    "no-more": "/components/NoMore/NoMore",
+    "no-data": "/components/NoData/NoData",
+    "sort-bar": "/pages/search/components/sortBar"
+  }
+}

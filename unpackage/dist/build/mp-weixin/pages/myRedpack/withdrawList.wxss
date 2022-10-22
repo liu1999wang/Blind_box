@@ -1,0 +1,1 @@
+.list{margin:0 24rpx;padding-bottom:180rpx}.list-item{display:flex;padding:24rpx 0;border-bottom:1px solid #f3f3f3}.list-body{flex:1}.date-time{font-size:24rpx;margin-top:10rpx}.right{font-size:40rpx}.right .value{font-weight:500;text-align:right}.right .status{font-size:24rpx;text-align:right}.right .status.pending{color:#fc0}.right .status.completed{color:#2ba246}

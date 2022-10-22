@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "default-theme": "/components/CountDown/theme/Default",
+    "product-detail-theme1": "/components/CountDown/theme/ProductDetailTheme1",
+    "zhuli-theme": "/components/CountDown/theme/ZhuliTheme"
+  }
+}
